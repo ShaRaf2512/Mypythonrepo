@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: myacrregi.azurecr.io/myacrregi:update_build_version
+        image: myacrregi.azurecr.io/myacrregi:$(tag)
         ports:
         - containerPort: 5000
 # service type loadbalancer       
